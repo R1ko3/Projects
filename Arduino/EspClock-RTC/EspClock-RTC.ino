@@ -18,7 +18,7 @@ void setup()
   pinMode(D6, OUTPUT);
   Serial.begin(115200);
   
-  WiFi.begin("salon", "knedleleniwe");
+  WiFi.begin("WiFi Name", "WiFi Password");
   Serial.print("Connecting");
   while (WiFi.status() != WL_CONNECTED)
   {
